@@ -16,10 +16,10 @@ jobs:
         dotnet-version: 3.1.100
 
     - name: Restore NuGet packages
-      run: dotnet restore .\src\Solution.sln
+      run: dotnet restore .\\src\\Solution.sln
 
     - name: Build with dotnet
-      run: dotnet build -c Release .\src\Solution.sln
+      run: dotnet build -c Release .\\src\\Solution.sln
 
     - name: Run unit tests
-      run: dotnet test .\src\Solution.sln
+      run: dotnet test .\\src\\Solution.sln
