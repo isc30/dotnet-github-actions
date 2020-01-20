@@ -13,6 +13,8 @@ namespace ConsoleApp
                 Surname = "Sanz",
             });
 
+            aaaa-syntax-error!
+
             Console.WriteLine(json);
         }
     }
