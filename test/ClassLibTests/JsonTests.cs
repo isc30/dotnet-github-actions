@@ -15,7 +15,7 @@ namespace ClassLibTests
             });
 
             Assert.Equal(
-                @"{""Name"":""Ivan"",""Surname"":""Sanz""}",
+                @"{""Name"":""Ivan"", ""Surname"":""Sanz""}",
                 json);
         }
     }
